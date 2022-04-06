@@ -16,6 +16,21 @@
 		9D0BF29A27F78F7F00EB3E59 /* MovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BF29927F78F7F00EB3E59 /* MovieAppTests.swift */; };
 		9D0BF2A427F78F7F00EB3E59 /* MovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BF2A327F78F7F00EB3E59 /* MovieAppUITests.swift */; };
 		9D0BF2A627F78F7F00EB3E59 /* MovieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BF2A527F78F7F00EB3E59 /* MovieAppUITestsLaunchTests.swift */; };
+		9D0BF2B427F7920B00EB3E59 /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BF2B327F7920B00EB3E59 /* ConnectivityManager.swift */; };
+		9D0BF2BC27F841D700EB3E59 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BF2BA27F841D700EB3E59 /* SplashViewController.swift */; };
+		9D0BF2BF27F843A600EB3E59 /* SplashStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BF2BE27F843A600EB3E59 /* SplashStoryboard.storyboard */; };
+		9D0BF2C227F8565C00EB3E59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BF2C127F8565C00EB3E59 /* GoogleService-Info.plist */; };
+		9D3D4AA627F8722900EFF9FC /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D4AA527F8722900EFF9FC /* NavigationManager.swift */; };
+		9D70BDF527F9BA9B0085DE2F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70BDF427F9BA9B0085DE2F /* MovieService.swift */; };
+		9D70BDF727F9BBF80085DE2F /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70BDF627F9BBF80085DE2F /* MovieCellViewModel.swift */; };
+		9D70BDFA27FAFE500085DE2F /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70BDF827FAFE500085DE2F /* MovieDetailViewController.swift */; };
+		9D94F1EB27F9B906008373B6 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94F1EA27F9B906008373B6 /* MoviesViewModel.swift */; };
+		9D96A5B827FB05C400B19DF6 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96A5B727FB05C400B19DF6 /* MovieDetailViewModel.swift */; };
+		9DE8093D27F882680091E944 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8093C27F882680091E944 /* Movie.swift */; };
+		9DE8094927F8DC8A0091E944 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8094727F8DC8A0091E944 /* MovieCell.swift */; };
+		9DE8094A27F8DC8A0091E944 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8094827F8DC8A0091E944 /* MovieCell.xib */; };
+		9DF5FA9727F85FBD00D162AE /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF5FA9627F85FBD00D162AE /* FirebaseRemoteConfig */; };
+		9DF5FA9927F85FCA00D162AE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF5FA9827F85FCA00D162AE /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,19 @@
 		9D0BF29F27F78F7F00EB3E59 /* MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0BF2A327F78F7F00EB3E59 /* MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITests.swift; sourceTree = "<group>"; };
 		9D0BF2A527F78F7F00EB3E59 /* MovieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D0BF2B327F7920B00EB3E59 /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		9D0BF2BA27F841D700EB3E59 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		9D0BF2BE27F843A600EB3E59 /* SplashStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashStoryboard.storyboard; sourceTree = "<group>"; };
+		9D0BF2C127F8565C00EB3E59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D3D4AA527F8722900EFF9FC /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationManager.swift; path = ../../../../Downloads/NavigationManager.swift; sourceTree = "<group>"; };
+		9D70BDF427F9BA9B0085DE2F /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		9D70BDF627F9BBF80085DE2F /* MovieCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
+		9D70BDF827FAFE500085DE2F /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		9D94F1EA27F9B906008373B6 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		9D96A5B727FB05C400B19DF6 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		9DE8093C27F882680091E944 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9DE8094727F8DC8A0091E944 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		9DE8094827F8DC8A0091E944 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF5FA9927F85FCA00D162AE /* FirebaseAnalytics in Frameworks */,
+				9DF5FA9727F85FBD00D162AE /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +113,7 @@
 				9D0BF29827F78F7F00EB3E59 /* MovieAppTests */,
 				9D0BF2A227F78F7F00EB3E59 /* MovieAppUITests */,
 				9D0BF28027F78F7D00EB3E59 /* Products */,
+				9DF5FA9527F85FBD00D162AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +130,19 @@
 		9D0BF28127F78F7D00EB3E59 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				9D70BDF327F9BA7D0085DE2F /* Services */,
+				9DE8094D27F983CF0091E944 /* ViewModels */,
+				9DE8094427F8D47F0091E944 /* Components */,
+				9D3D4AA727F8821F00EFF9FC /* Models */,
+				9D0BF2B527F83E3800EB3E59 /* ViewControllers */,
+				9D0BF2B227F791ED00EB3E59 /* Utils */,
 				9D0BF28227F78F7D00EB3E59 /* AppDelegate.swift */,
 				9D0BF28427F78F7D00EB3E59 /* SceneDelegate.swift */,
-				9D0BF28627F78F7D00EB3E59 /* ViewController.swift */,
 				9D0BF28827F78F7D00EB3E59 /* Main.storyboard */,
 				9D0BF28B27F78F7F00EB3E59 /* Assets.xcassets */,
 				9D0BF28D27F78F7F00EB3E59 /* LaunchScreen.storyboard */,
 				9D0BF29027F78F7F00EB3E59 /* Info.plist */,
+				9D0BF2C127F8565C00EB3E59 /* GoogleService-Info.plist */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -127,6 +164,68 @@
 			path = MovieAppUITests;
 			sourceTree = "<group>";
 		};
+		9D0BF2B227F791ED00EB3E59 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D4AA527F8722900EFF9FC /* NavigationManager.swift */,
+				9D0BF2B327F7920B00EB3E59 /* ConnectivityManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9D0BF2B527F83E3800EB3E59 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D0BF28627F78F7D00EB3E59 /* ViewController.swift */,
+				9D0BF2BA27F841D700EB3E59 /* SplashViewController.swift */,
+				9D0BF2BE27F843A600EB3E59 /* SplashStoryboard.storyboard */,
+				9D70BDF827FAFE500085DE2F /* MovieDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9D3D4AA727F8821F00EFF9FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8093C27F882680091E944 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D70BDF327F9BA7D0085DE2F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9D70BDF427F9BA9B0085DE2F /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9DE8094427F8D47F0091E944 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8094727F8DC8A0091E944 /* MovieCell.swift */,
+				9DE8094827F8DC8A0091E944 /* MovieCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9DE8094D27F983CF0091E944 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9D94F1EA27F9B906008373B6 /* MoviesViewModel.swift */,
+				9D70BDF627F9BBF80085DE2F /* MovieCellViewModel.swift */,
+				9D96A5B727FB05C400B19DF6 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9DF5FA9527F85FBD00D162AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +242,10 @@
 			dependencies = (
 			);
 			name = MovieApp;
+			packageProductDependencies = (
+				9DF5FA9627F85FBD00D162AE /* FirebaseRemoteConfig */,
+				9DF5FA9827F85FCA00D162AE /* FirebaseAnalytics */,
+			);
 			productName = MovieApp;
 			productReference = 9D0BF27F27F78F7D00EB3E59 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 9D0BF27627F78F7C00EB3E59;
+			packageReferences = (
+				9D0BF2C027F8549400EB3E59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9D0BF28027F78F7D00EB3E59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE8094A27F8DC8A0091E944 /* MovieCell.xib in Resources */,
 				9D0BF28F27F78F7F00EB3E59 /* LaunchScreen.storyboard in Resources */,
 				9D0BF28C27F78F7F00EB3E59 /* Assets.xcassets in Resources */,
+				9D0BF2C227F8565C00EB3E59 /* GoogleService-Info.plist in Resources */,
+				9D0BF2BF27F843A600EB3E59 /* SplashStoryboard.storyboard in Resources */,
 				9D0BF28A27F78F7D00EB3E59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +367,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE8093D27F882680091E944 /* Movie.swift in Sources */,
+				9D70BDFA27FAFE500085DE2F /* MovieDetailViewController.swift in Sources */,
 				9D0BF28727F78F7D00EB3E59 /* ViewController.swift in Sources */,
 				9D0BF28327F78F7D00EB3E59 /* AppDelegate.swift in Sources */,
+				9DE8094927F8DC8A0091E944 /* MovieCell.swift in Sources */,
+				9D0BF2B427F7920B00EB3E59 /* ConnectivityManager.swift in Sources */,
+				9D70BDF527F9BA9B0085DE2F /* MovieService.swift in Sources */,
 				9D0BF28527F78F7D00EB3E59 /* SceneDelegate.swift in Sources */,
+				9D94F1EB27F9B906008373B6 /* MoviesViewModel.swift in Sources */,
+				9D3D4AA627F8722900EFF9FC /* NavigationManager.swift in Sources */,
+				9D0BF2BC27F841D700EB3E59 /* SplashViewController.swift in Sources */,
+				9D96A5B827FB05C400B19DF6 /* MovieDetailViewModel.swift in Sources */,
+				9D70BDF727F9BBF80085DE2F /* MovieCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,11 +558,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7PT8PDBPQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,11 +586,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7PT8PDBPQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +603,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -598,6 +719,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D0BF2C027F8549400EB3E59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DF5FA9627F85FBD00D162AE /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D0BF2C027F8549400EB3E59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		9DF5FA9827F85FCA00D162AE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D0BF2C027F8549400EB3E59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D0BF27727F78F7C00EB3E59 /* Project object */;
 }
